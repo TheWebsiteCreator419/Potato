@@ -1,0 +1,40 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Potato Clicker</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+</head>
+
+<body>
+    <div class="sectionLeft">
+        <center>
+            <div class="scoreContainer unselectable">
+                <span id="score">0</span> Potato's<br>
+                <span id="scorepersecond">0</span> Potato's per second<br>
+            </div>
+            <br>
+            <div class="clickerContainer unselectable">
+                <img src="Images/potato.png" height="296px" width="256px" id= "clicker">
+            </div>
+        </center>
+
+        <div class="sectionFooter">
+            <h5>Potato Clicker</h5>
+            <button onclick="resetGame();">Reset Game</button>
+        </div>
+    </div>
+          
+    <div class="sectionRight">
+	     <p>Upgrade that Upgrade Upgrades</p>
+             <div id="upgradeContainer"></div>
+             <p>Upgrades</p>
+             <div id="shopContainer"></div>
+	     <p>Achievements</p>
+             <div id="achievementContainer"></div>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
+
